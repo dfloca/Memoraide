@@ -11,7 +11,7 @@ BEGIN
 
 	SET NOCOUNT ON;
 
-    SELECT Id, DeckId, Question, Answer
+    SELECT *
 	FROM dbo.Cards
 	WHERE Id = @CardId AND (IsDeleted = 0 OR IsDeleted IS NULL)
 	  
