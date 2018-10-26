@@ -74,8 +74,11 @@
     <Build Include="dbo\Stored Procedures\spAddCard.sql" />
     <Build Include="dbo\Stored Procedures\spGetCard.sql" />
     <None Include="Scripts\DataCreationScript.sql" />
-    <None Include="Scripts\DatabaseAndTableCreationScript.sql" />
-    <Build Include="dbo\Tables\Tags.sql" />
+    <None Include="Scripts\DatabaseCreationScript.sql" />
     <Build Include="dbo\Tables\CardTags.sql" />
+    <Build Include="dbo\Stored Procedures\spDeleteCard.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\TableCreationScript.sql" />
   </ItemGroup>
 </Project>
