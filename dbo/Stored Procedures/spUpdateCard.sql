@@ -4,6 +4,7 @@
 -- Description:	Stored procedure to update cards
 -- =============================================
 CREATE PROCEDURE [dbo].[spUpdateCard] 
+	@CardId INT,
 	@DeckId INT,
 	@Question VARCHAR(MAX),
 	@Answer VARCHAR(MAX),
@@ -22,4 +23,5 @@ BEGIN
 						WHEN @IsDeleted = 1 THEN GETDATE()
 						ELSE NULL
 					  END
+	WHERE Id = @CardId
 END 
