@@ -12,7 +12,7 @@ BEGIN
 	SET NOCOUNT ON;
 
     SELECT *
-	FROM dbo.Cards
+	FROM dbo.Decks
 	WHERE Id = @DeckId AND (IsDeleted = 0 OR IsDeleted IS NULL)
 	  
 END
