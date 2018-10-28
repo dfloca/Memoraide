@@ -7,8 +7,7 @@ CREATE PROCEDURE [dbo].[spUpdateCard]
 	@CardId INT,
 	@DeckId INT,
 	@Question VARCHAR(MAX),
-	@Answer VARCHAR(MAX),
-	@IsDeleted BIT
+	@Answer VARCHAR(MAX)
 AS
 BEGIN
  	
@@ -17,11 +16,6 @@ BEGIN
     UPDATE dbo.Cards
 	SET DeckId = @DeckId,
 		Question = @Question,
-		Answer = @Answer,
-		IsDeleted = @IsDeleted,
-		DateDeleted = CASE 
-						WHEN @IsDeleted = 1 THEN GETDATE()
-						ELSE NULL
-					  END
+		Answer = @Answer
 	WHERE Id = @CardId
 END 
