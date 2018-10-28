@@ -77,6 +77,11 @@
     <None Include="Scripts\DatabaseCreationScript.sql" />
     <Build Include="dbo\Tables\CardTags.sql" />
     <Build Include="dbo\Stored Procedures\spDeleteCard.sql" />
+    <Build Include="dbo\Stored Procedures\spAddDeck.sql" />
+    <Build Include="dbo\Stored Procedures\spGetDeck.sql" />
+    <Build Include="dbo\Stored Procedures\spUpdateCard.sql" />
+    <Build Include="dbo\Stored Procedures\spUpdateDeck.sql" />
+    <Build Include="dbo\Stored Procedures\spDeleteDeck.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\TableCreationScript.sql" />
