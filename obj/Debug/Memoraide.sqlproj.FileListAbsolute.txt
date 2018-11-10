@@ -1,0 +1,10 @@
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\bin\Debug\Memoraide.dacpac
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\bin\Debug\Memoraide.dll
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\bin\Debug\Memoraide.pdb
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\Memoraide.sqlprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\Model.xml
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\refactor.xml
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\postdeploy.sql
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\predeploy.sql
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\Memoraide.dll
+C:\Users\Daniel\Desktop\Term 6\Projects\Memoraide\Memoraide\obj\Debug\Memoraide.pdb
