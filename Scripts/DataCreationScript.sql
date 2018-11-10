@@ -3,19 +3,19 @@ USE Memoraide
 GO;
 
 -------------------------------------------------------Users
-INSERT INTO dbo.Users (FirstName, LastName, Email)
-VALUES ('Bigshot', 'Smartypants', 'bigs@pants.com')
+INSERT INTO dbo.Users (FirstName, LastName, Email, Username, [Password])
+VALUES ('Bigshot', 'Smartypants', 'bigs@pants.com', 'bigs', 'bigs1234')
 
-INSERT INTO dbo.Users (FirstName, LastName, Email)
-VALUES ('Edgar', 'Poe', 'mr.poe@raven.com')
-
-
-INSERT INTO dbo.Users (FirstName, LastName, Email)
-VALUES ('Elon', 'Musk', 'e.musk@space.com')
+INSERT INTO dbo.Users (FirstName, LastName, Email, Username, [Password])
+VALUES ('Edgar', 'Poe', 'mr.poe@raven.com', 'theraven', '1quothe2')
 
 
-INSERT INTO dbo.Users (FirstName, LastName, Email)
-VALUES ('Sun', 'Tzu', 'sun.tzu@ancientchina.ac')
+INSERT INTO dbo.Users (FirstName, LastName, Email, Username, [Password])
+VALUES ('Elon', 'Musk', 'e.musk@space.com', 'spaceman', 'iloveanime')
+
+
+INSERT INTO dbo.Users (FirstName, LastName, Email, Username, [Password])
+VALUES ('Sun', 'Tzu', 'sun.tzu@ancientchina.ac', 'war_guy123', 'artist456')
 
 --SELECT * FROM dbo.Users;
 

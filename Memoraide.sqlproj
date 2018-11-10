@@ -87,4 +87,7 @@
   <ItemGroup>
     <None Include="Scripts\TableCreationScript.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Memoraide.refactorlog" />
+  </ItemGroup>
 </Project>
