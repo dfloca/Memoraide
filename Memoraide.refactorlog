@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f177db34-3eb4-4a2c-85bd-a63ff7a0df23" ChangeDateTime="11/10/2018 21:41:59">
+    <Property Name="ElementName" Value="[dbo].[Users].[DeletedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateDeleted" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6758545-1b73-413a-aa8b-a9449fd1ceae" ChangeDateTime="11/10/2018 21:42:46">
+    <Property Name="ElementName" Value="[dbo].[Users].[BannedDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateBanned" />
+  </Operation>
+</Operations>
