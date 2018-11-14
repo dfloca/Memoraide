@@ -83,6 +83,7 @@
     <Build Include="dbo\Stored Procedures\spUpdateDeck.sql" />
     <Build Include="dbo\Stored Procedures\spDeleteDeck.sql" />
     <Build Include="dbo\Stored Procedures\spGetUser.sql" />
+    <Build Include="dbo\Stored Procedures\spSubscribeToDeck.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\TableCreationScript.sql" />
