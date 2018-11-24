@@ -5,6 +5,7 @@
     [DateCreated] DATETIME     NOT NULL,
     [IsDeleted]   BIT          NULL,
     [DateDeleted] DATETIME     NULL,
+    [Rating]	  DECIMAL	   NOT NULL DEFAULT 0, 
     PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_UserId] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
 );

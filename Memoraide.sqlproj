@@ -63,6 +63,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Scripts\" />
+    <Folder Include="dbo\Database Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Users.sql" />
@@ -84,9 +85,15 @@
     <Build Include="dbo\Stored Procedures\spDeleteDeck.sql" />
     <Build Include="dbo\Stored Procedures\spGetUser.sql" />
     <Build Include="dbo\Stored Procedures\spSubscribeToDeck.sql" />
+    <Build Include="dbo\Tables\CardRating.sql" />
+    <Build Include="dbo\Tables\DeckRating.sql" />
+    <Build Include="dbo\Stored Procedures\spAddDeckRating.sql" />
+    <Build Include="dbo\Stored Procedures\spAddCardRating.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\TableCreationScript.sql" />
+    <None Include="dbo\Database Triggers\trgInsertDeckRating.sql" />
+    <None Include="dbo\Database Triggers\trgInsertCardRating.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Memoraide.refactorlog" />
