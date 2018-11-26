@@ -5,7 +5,7 @@
 -- =============================================
 CREATE PROCEDURE [dbo].[spAddCardAnswer] 
 	@UserId INT,
-	@DeckId INT,
+	@CardId INT,
 	@CorrectAnswer BIT,
 	@NextReviewDate DateTime
 AS
@@ -13,8 +13,8 @@ BEGIN
 
 	SET NOCOUNT ON;
 
-    INSERT INTO dbo.CardAnswers(UserId, DeckId, CorrectAnswer, DateAnswered, NextReviewDate)
-	VALUES (@UserId, @DeckId, @CorrectAnswer, GETDATE(), @NextReviewDate)
+    INSERT INTO dbo.CardAnswers(UserId, CardId, CorrectAnswer, DateAnswered, NextReviewDate)
+	VALUES (@UserId, @CardId, @CorrectAnswer, GETDATE(), @NextReviewDate)
 END
 
 

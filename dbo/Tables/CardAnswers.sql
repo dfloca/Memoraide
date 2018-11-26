@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[CardAnswers](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[UserId] [int] NOT NULL,
-	[DeckId] [int] NOT NULL,
+	[CardId] [int] NOT NULL,
 	[CorrectAnswer] [bit] NOT NULL,
 	[DateAnswered] [datetime] NOT NULL,
 	[NextReviewDate] [datetime] NOT NULL,
