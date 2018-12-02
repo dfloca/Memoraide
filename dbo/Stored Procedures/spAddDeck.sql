@@ -11,6 +11,13 @@ BEGIN
 
 	SET NOCOUNT ON;
 
+    DECLARE @tmp TABLE (Id INT);
+
     INSERT INTO dbo.Decks ([Name], UserId, DateCreated)
+	OUTPUT inserted.Id INTO @tmp(Id)
 	VALUES (@Name, @UserId, GETDATE())
+
+	INSERT INTO dbo.UserDecks (UserId, DeckId)
+	SELECT @UserId, t.Id
+	FROM @tmp t
 END
