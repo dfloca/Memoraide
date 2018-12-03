@@ -7,6 +7,7 @@
     [IsDeleted]   BIT           NULL,
     [DateDeleted] DATETIME      NULL,
     [Rating]	  DECIMAL		NOT NULL DEFAULT 0, 
+    [ReviewDate] DATETIME NULL, 
     PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_DeckId] FOREIGN KEY ([DeckId]) REFERENCES [dbo].[Decks] ([Id])
 );
